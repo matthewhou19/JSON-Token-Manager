@@ -7,6 +7,10 @@
   "scripts": {
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewhou19/JSON-Token-Manager.git"
+  },
   "keywords": [
     "json",
     "token",
@@ -15,8 +19,14 @@
   ],
   "author": "MatthewHou",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewhou19/JSON-Token-Manager/issues"
+  },
+  "homepage": "https://github.com/matthewhou19/JSON-Token-Manager/blob/main/README.md",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
   "dependencies": {
-    "axios": "^1.7.2",
-    "typescript": "^5.5.4"
+    "axios": "^1.7.2"
   }
 }
