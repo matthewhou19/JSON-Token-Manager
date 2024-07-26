@@ -1,0 +1,22 @@
+{
+  "name": "json-token-manager",
+  "version": "1.0.0",
+  "description": "A token manager for handling JSON Web Tokens",
+  "main": "dist/JSONTokenManager.js",
+  "types": "dist/JSONTokenManager.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "json",
+    "token",
+    "manager",
+    "API"
+  ],
+  "author": "MatthewHou",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "typescript": "^5.5.4"
+  }
+}
