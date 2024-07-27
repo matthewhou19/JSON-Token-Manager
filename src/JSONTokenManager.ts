@@ -60,6 +60,14 @@ export default class JsonTokenManager {
     }
     return this.token!;
   }
+  public async manualRefresh(): Promise<void> {
+    try {
+      await this.refreshToken();
+      console.log("Token refreshed successfully.");
+    } catch (error) {
+      console.error("Failed to manually refresh token:", error);
+    }
+  }
 
   private async refreshToken(attempts: number = 0): Promise<void> {
     this.isRefreshing = true;
