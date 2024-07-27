@@ -1,6 +1,6 @@
 {
   "name": "json-token-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A token manager for handling JSON Web Tokens",
   "main": "dist/JSONTokenManager.js",
   "types": "dist/JSONTokenManager.d.ts",
